@@ -1,0 +1,100 @@
+.main {
+  margin: auto;
+  margin-top: 4em;
+  width: 100%;
+  max-width: 850px;
+  background-color: #1a1a1a;
+  padding: 2em;
+  border-radius: 0.3em;
+  margin-bottom: 2em;
+}
+
+.smallTitle {
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.main h1 {
+  color: rgb(0, 240, 160);
+}
+
+.divider {
+  border-top: 1px solid white;
+  opacity: 0.3;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+.goBack {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+.input {
+  display: block;
+  max-width: 80%;
+  width: 90vw;
+  color: white;
+  background-color: #2d2d2d;
+  border: none;
+  border-radius: 0.5em;
+  padding: 1.5em 2em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+.tables {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.tables table {
+  border-collapse: collapse;
+}
+
+.tables td,
+.tables th {
+  padding: 0.5em 1em;
+  border: 1px solid #555;
+}
+
+.tables th {
+  border-top: none;
+  color: #999;
+}
+
+.tables th:first-child {
+  border-left: none;
+}
+
+.tables th:last-child,
+.tables td:last-child {
+  border-right: none;
+}
+
+.tables .tense {
+  color: #00f0a0;
+  text-transform: capitalize;
+}
+
+.tutorial {
+  text-align: center;
+  margin: auto;
+  max-width: 400px;
+}
+
+.disclaimer {
+  font-size: 0.9em;
+  opacity: 0.7;
+}

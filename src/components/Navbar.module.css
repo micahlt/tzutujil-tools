@@ -1,0 +1,75 @@
+.nav {
+  position: fixed;
+  width: 100%;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  padding: 0 1em;
+  gap: 2em;
+  transition: background 0.2s;
+  backdrop-filter: none;
+  z-index: 99;
+}
+
+.langSwitch {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9em;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  transition: filter 0.2s;
+}
+
+.langSwitch svg {
+  margin-right: 0.5em;
+}
+
+.langSwitch:hover {
+  filter: brightness(0.8);
+}
+
+.flexSpacer {
+  flex: 1;
+}
+
+.link {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  cursor: pointer;
+  display: block;
+  position: relative;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 0;
+  padding-top: 2em;
+  right: 0;
+  text-align: right;
+  width: max-content;
+  font-size: 1.2em;
+  overflow: hidden;
+  border-radius: 0.5em;
+}
+
+.dropdown > .link {
+  color: black;
+  background-color: white;
+  padding: 1em;
+}
+
+.link:hover > .dropdown {
+  display: block;
+}
+
+.dropdown > .link:hover {
+  background-color: #00f0a0;
+}
+
+@media screen and (max-width: 550px) {
+  .langSwitch span {
+    display: none;
+  }
+}
