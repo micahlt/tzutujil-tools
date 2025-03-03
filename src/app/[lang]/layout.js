@@ -11,10 +11,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   metadataBase: new URL("https://dictionary.tzutujil.org"),
-  title: "Tz'utujil.org Dictionary",
+  title: "Tz'utujil.org Tools",
 
   description:
-    "The world's largest, most comprehensive Tz'utujil dictionary and translator.",
+    "Learn Maya Tz'utujil better with interactive tools, and resources.",
 
   keywords:
     "Tzutujil dictionary,Tz'utujil dictionary,Tz'utujil diccionario,Tzutujil diccionario,Guatemala,translate Tzutujil,translate Tz'utujil,Tz'utujil translator,Tzutujil translator,learn Tzutujil,,Tzutujil language,Tzutujil database,Tz'utujil database,Tz'utujil,Tzutujil",
@@ -27,9 +27,9 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Tz'utujil.org Dictionary",
+    title: "Tz'utujil.org Tools",
     description:
-      "The world's largest, most comprehensive Tz'utujil dictionary and translator.",
+      "Learn Maya Tz'utujil better with interactive tools, and resources.",
     siteId: "1561359226819198976",
     creator: "@micahtlindley",
     creatorId: "1561359226819198976",
